@@ -4,6 +4,9 @@
 
 
 @section("content")
+
+<a href="{{route("comics.create")}}" type="button" class="btn btn-primary">Crea nuovo fumetto</a>
+
 <table class="table">
     <thead>
       <tr>
