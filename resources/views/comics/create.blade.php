@@ -39,7 +39,7 @@ Crea un nuovo fumetto
 
     <div class="mb-3">
         <label for="sale_date" class="form-label">Data</label>
-        <input type="text" class="form-control" id="sale_date" name="sale_date">
+        <input placeholder="0000-00-00" type="text" class="form-control" id="sale_date" name="sale_date">
     </div>
 
     <div class="mb-3">
