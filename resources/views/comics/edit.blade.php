@@ -8,9 +8,10 @@ Modifica fumetto
 
 <h1>Modifica fumetto:</h1>
 
-<form method="POST" action="{{route("comics.store")}}">
+<form method="POST" action="{{route("comics.update", ["comic" => $comic->id])}}">
 
     @csrf
+    @method("PUT")
 
     <div class="mb-3">
       <label for="title" class="form-label">Titolo</label>
@@ -19,7 +20,7 @@ Modifica fumetto
 
     <div class="mb-3">
       <label for="description" class="form-label">Descrizione</label>
-      <textarea type="text" class="form-control" id="description" name="description">value="{{$comic->description}}"</textarea>
+      <textarea type="text" class="form-control" id="description" name="description">{{$comic->description}}"</textarea>
     </div>
 
     <div class="mb-3">
