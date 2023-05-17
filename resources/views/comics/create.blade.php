@@ -4,6 +4,7 @@
 Crea un nuovo fumetto
 @endsection
 
+
 @section("content")
 
 <h1>Crea nuovo fumetto:</h1>

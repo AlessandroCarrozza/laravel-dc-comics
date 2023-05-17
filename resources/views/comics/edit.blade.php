@@ -4,6 +4,7 @@
 Modifica fumetto
 @endsection
 
+
 @section("content")
 
 <h1>Modifica fumetto:</h1>
